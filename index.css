@@ -80,7 +80,7 @@ nav{
     display: flex;
     padding: 61px 12px 0 12px;
     align-items: center;
-    gap: 52px;
+    gap: 0px;
     justify-content: space-between;
     align-self: stretch;
     color: white;
