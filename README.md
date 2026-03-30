@@ -73,7 +73,7 @@ Proyecto web responsive orientado a:
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/tuusuario/tu-repo.git
+git clone https://github.com/MacarenaAPR/Landing-Page
 ```
 
 2. Abre el proyecto en VS Code
