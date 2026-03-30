@@ -1,0 +1,380 @@
+@media (max-width: 768px) {
+    body{
+    width: 100%;
+    color: #000;
+    text-align: center;
+    font-family: "Istok Web";
+    font-style: normal;
+    line-height: normal;}
+    main{
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+
+    /*----header + nav------------*/
+    /*diseño header */
+    header{
+        padding: 0px 1px;
+        width: 100%;
+        background-color:#0F1724;
+        color: white;
+    }
+
+    /*diseño princiapl nav*/
+    nav{
+        width: 100%;
+        display: flex;
+        flex-direction:row;
+        gap: 10px;
+        height: auto;
+        padding:10px;
+        justify-content: space-between;
+        align-items: start;
+        flex-shrink: 0;
+        align-self:stretch;
+    }
+    /*Diseño Logo*/
+    #Logo{
+        width: 30%;
+        display: flex;
+        flex: 0 0 0;
+        padding:0 0px;
+        gap: 0;
+        justify-content: none;
+    }
+    /*Diseño btn navs*/
+    #btn-nav{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        flex: 0;
+        
+    }
+    #btn-nav a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.05s ease ;
+    }
+    #btn-nav a:hover {
+    transform: scale(1.1);
+    }
+
+
+    /*----Secciones del cuerpo------------*/
+        /*Section-header general*/
+    #section-header{
+        width: 100%;
+        height: auto;
+        background-color: #0F1724;
+    }
+    .div-section-header{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 10px 5px;
+        align-items: center;
+        gap: 52px;
+        justify-content: space-between;
+        align-self: stretch;
+        color: white;
+    }
+    .header-photo img{
+        display: none;
+    }
+    /*section-header histographia*/
+    .header-histographia{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .header-histographia h1{
+        color: #FFF;
+        font-family: "Istok Web";
+        font-size: 48px;
+        font-style: normal;
+        line-height: normal;
+        align-self: stretch;
+    }
+    .header-histographia p{
+        color: #D9D9D9;
+        font-family: "Istok Web";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: auto;
+        line-height: 32px; /* 160% */
+        align-self: stretch;
+    }
+    .header-histographia h5{
+        color: #FFF;
+        font-family: "Istok Web";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: auto;
+        line-height: normal;
+        width:100%;
+    }
+    .header-histographia button{
+        width: 350px;
+        height: 80px;
+        background-color: #169281C2;
+        color: white;
+        border-radius: 50px;
+        border-color: #D9D9D9;
+        box-shadow:(0 4px 4px rgba(0, 0, 0, 0.25));
+        text-align: center;
+        font-family: "Istok Web";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: auto;
+        line-height: normal;
+        display: inline-block;
+        transition: transform 0.05s ease ;
+    }
+    .header-histographia button:hover{
+        background-color:#1dc7b0c2;
+        border-color: #D9D9D9;
+        transform: scale(1.01);
+    }
+    .lineal-header{
+        width: 360px;
+        height: 1px;
+        background-color: #D9D9D9;
+        padding: 0;
+    }
+    .div-section-header-histographia-info{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 0;
+    }
+    .row-section-header-histographia-info{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        padding-right: 5px;
+        align-items: flex-start;
+        justify-content: start;
+    }
+    .row-section-header-histographia-info i{
+        font-size: 20px;
+        
+    }
+    .row-section-header-histographia-info p{
+        font-size: 15px;
+    }
+
+
+    /*Section-helpme histographia*/
+    .section-helpme-histographia{
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        align-self: stretch;
+    }
+    .section-helpme-histographia h5{
+        width: 100%;
+        font-size: 24px;
+        padding: 0;
+        margin: 0;
+    }
+    .section-helpme-histographia h1{
+        width: 100%;
+        font-size: 36px;
+        padding: 0;
+        margin: 0;
+    }
+    .section-helpme-problems {
+        display: flex;
+        overflow-x: auto;
+        gap: 16px;
+        padding-top: 24px;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+    }
+    .section-helpme-problems::-webkit-scrollbar {
+        display: none;
+    }
+    .section-helmpe-problems-histographia,
+    .section-helmpe-problems-histographia-hover {
+        transition: none;
+        width: 100%;
+        flex: 0 0 100%;
+        scroll-snap-align: start;
+    }
+    .section-helmpe-problems-histographia:hover,
+    .section-helmpe-problems-histographia-hover:hover {
+        transform: none;
+    }
+
+    /*Section-Services General*/
+    #section-services{
+        display: flex;
+        width: 100%;
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        height: auto;
+        flex: 1 1 auto;
+    }
+    .section-services-histographia h5{
+        width: 100%;
+        font-size: 24px;
+    }
+
+    #desktop{
+        display: none;
+    }
+    #movil{
+        display: block;
+    }
+
+
+
+    /*Section-about profesional*/
+    #section-about-profesional{
+        width: 100%;
+        height: auto;
+        padding: 0px 20px;
+    }
+    .div-section-about-profesional{
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+        justify-content:flex-start;
+    }
+    .div-section-about-profesional img{
+        height: auto;
+        width:250px;
+    }
+    .section-about-profesional-histographia{
+        width: 100%;
+        height: auto;
+    }
+    
+
+    /*Section-session-steps General*/
+    #section-session-steps{
+        width: 100%;
+        padding: 20px;
+        gap: 10px;
+    }
+    .section-session-steps-elements{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*Section reals-results*/
+    .section-real-result-div-element {
+    display: flex;
+    justify-content: flex-start; /* antes center */
+    align-items: stretch;
+    overflow-x: auto;
+    gap: 16px;
+    width: 100%;
+    padding: 10px 16px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    }
+    .section-real-result-div-element::-webkit-scrollbar {
+        display: none;
+    }
+    .section-real-result-elements {
+        flex: 0 0 85%;
+        min-width: 85%;
+        max-width: 85%;
+        scroll-snap-align: start;
+    }
+    .div-section-real-result-elements-stars {
+        width: 100%;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    /*section schedule-via-wsp*/
+    #section-schedule-via-wsp{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 20px 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 0px;
+    background: #0F1724;
+    }
+    #section-schedule-via-wsp h1{
+    font-size: 36px;
+    padding: 0 20px;
+    }
+    #section-schedule-via-wsp p{
+    width: 300px;
+    }
+    #section-schedule-via-wsp button{
+        width: 350px;
+        height: 80px;
+        font-size: 24px;
+    }
+
+    /*FOOTEER*/
+    footer{
+        width: 100%;
+        height: 100%;
+    }
+    #footer-section-histographia{
+        padding: auto;
+    }
+    #section-histographia-elemnts{
+        padding: 0px 10px;
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+    }
+    .footer-histographia-element {
+        padding-top: 10px;
+        border-top: solid 1px #c0c0c0;
+    }
+    #section-histographia-credits{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .terminos{
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        gap: 5px;
+    }
+    #footer-section-creador{
+        width: 100%;
+        height: auto;
+        padding: 0 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex: auto;
+
+    }
+    #footer-section-creador p{
+        font-size: 12px;
+        margin: 1px;
+    }
+
+}
+
+    
+
+

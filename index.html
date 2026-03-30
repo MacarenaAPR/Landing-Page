@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KineApps | Kinesiología y Rehabilitación</title>
+    <meta name="description" content="Atención kinesiológica personalizada para rehabilitación, movilidad, rendimiento físico y bienestar.">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+    <!-- OJO: esto ayuda, pero la CSP ideal va en headers del servidor -->
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self';
+        img-src 'self' data: https:;
+        style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com;
+        font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net;
+        script-src 'self' https://cdn.jsdelivr.net;
+        connect-src 'self';
+        frame-ancestors 'self';
+        base-uri 'self';
+        form-action 'self';
+    ">
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index-movil.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Navegador de pagina-->
+    <header>
+        <nav class="navbar">
+            <div class="col" id="Logo">
+                <div class="col" id="h1-kine"><h1>Kine</h1></div>
+                <div class="col" id="h1-apps"><h1>Apps</h1></div>
+            </div>
+            <div class="col" id="btn-nav">
+                <div class="col"><a href="">Inicio</a></div>
+                <div class="col"><a href="">Servicios</a></div>
+                <div class="col"><a href="">Contactos</a></div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Secciones del cuerpo-->
+    <main>
+        <section class="container-fluid" id="section-header">
+            <div class="div-section-header">
+                <div class="header-photo"><img src="recursos/professionalImage1.png" alt=""></div><!--  FALTAAAAAAAAAA-->
+                <div class="header-histographia">
+                    <h1>Recupera tu movilidad sin dolor</h1>
+                    <p>Atención kinesiológica personalizada y basada en
+                        evidencia para rehabilitar lesiones, mejorar tu
+                        rendimiento y potenciar tu bienestar físico en cada
+                        etapa de tu vida.
+                    </p>
+                    <h5>Especialista en rehabilitación</h5>
+                    <button class="btn">Agenda por WhatsApp</button>
+                    <div class="lineal-header"></div>
+                    <div class="div-section-header-histographia-info">
+                        <div class="row-section-header-histographia-info">
+                            <i class="bi bi-check2-circle"></i>
+                            <p>Atención 1 a 1 </p>
+                        </div>
+                        <div class="row-section-header-histographia-info">
+                            <i class="bi bi-star"></i>
+                            <p>+2 Años de Experiencia</p>
+                        </div>
+                        <div class="row-section-header-histographia-info">
+                            <i class="bi bi-geo-alt"></i>
+                            <p>Sesiones a domicilio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid" id="section-helpme">
+            <div class="section-helpme-histographia">
+                <h1>¿Qué problemas puedo ayudarte a resolver?</h1>
+                <h5>Identifica tu dolencia. Un diagnóstico preciso es el primer paso hacia una recuperación exitosa y duradera.</h5> 
+            </div>
+            
+            <div class="section-helpme-problems">
+                <div class="section-helmpe-problems-histographia" style="grid-column: 1 / span 1;">
+                    <i class="bi bi-activity"></i>
+                    <h5>Dolor Crónico</h5>
+                    <p>
+                        Tratamiento para lumbalgias,
+                        cervicalgias y dolores
+                        articulares persistentes que
+                        limitan tu día a día.
+                    </p>
+                </div>
+                <div class="section-helmpe-problems-histographia-hover" style="grid-column: 2 / span 1;">
+                    <i class="bi bi-person-arms-up"></i>
+                    <h5>Lesiones Deportivas</h5>
+                    <p>
+                        Recuperación de esguinces,
+                        desgarros, tendinopatías y
+                        optimización del rendimiento
+                        para atletas.
+                    </p>
+                </div>
+                <div class="section-helmpe-problems-histographia" style="grid-column: 3 / span 1;">
+                    <i class="bi bi-heart-pulse-fill"></i>
+                    <h5>Rehabilitación Post-Op</h5>
+                    <p>
+                        Acompañamiento integral tras
+                        cirugías traumatológicas para
+                        recuperar fuerza y movilidad de
+                        forma segura.
+                    </p>
+                </div>
+                <div class="section-helmpe-problems-histographia-hover" style="grid-column: 4 / span 1;">
+                    <i class="bi bi-person-wheelchair"></i>
+                    <h5>Alteraciones Posturales</h5>
+                    <p>
+                        Evaluación y corrección de
+                        desbalances biomecánicos
+                        generados por el sedentarismo
+                        o el trabajo.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="section-services">
+            <div class="section-services-histographia">
+                <h1>Servicios</h1>
+                <h5>Tratamientos modernos y personalizados para abordar la raíz de tu problema, no solo los síntomas.</h5>
+            </div>
+            <div class="section-services-carrusel" id="desktop">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="services-row">
+                                <div class="section-services-carrusel-info">
+                                    <div class="section-services-div-img"><img src="recursos/img-recurso6.png" alt=""></div>
+                                    <h5>Lesion Traumatologica y deportiva</h5>
+                                    <p>Tratamientos especializados para lesiones musculares, articulares o esqueléticas, enfocadas en la recuperación funcional de pacientes activos o deportistas.</p>
+                                </div>
+                                <div class="section-services-carrusel-info">
+                                    <div class="section-services-div-img"><img src="recursos/img-recurso5.png" alt=""></div>
+                                    <h5>Atencion respiratorio</h5>
+                                    <p>Rehabilitación pulmonar para mejorar la capacidad respiratoria en pacientes con enfermedades crónicas o postinfecciones como COVID-19.</p>
+                                </div>
+                                <div class="section-services-carrusel-info">
+                                    <div class="section-services-div-img"><img src="recursos/img-recurso3.png" alt=""></div>
+                                    <h5>Geriatria</h5>
+                                    <p>Atención personalizada a adultos mayores para preservar movilidad, independencia y prevenir caídas, adaptado a las necesidades de esta etapa.</p>
+                                </div>
+                            </div>                          
+                        </div>
+                        <div class="carousel-item">
+                            <div class="services-row">
+                                <div class="section-services-carrusel-info">
+                                    <div class="section-services-div-img"><img src="recursos/img-recurso2.png" alt=""></div>
+                                    <h5>Reintegro deportivo</h5>
+                                    <p>Plan de recuperación progresiva para que el paciente retome su práctica deportiva de forma segura y eficiente, luego de una lesión.</p>
+                                </div>
+                                <div class="section-services-carrusel-info">
+                                    <div class="section-services-div-img"><img src="recursos/img-recurso4.png" alt=""></div>
+                                    <h5>Presoterapia</h5>
+                                    <p>Terapia con presión controlada que favorece el drenaje linfático, mejora la circulación y ayuda a reducir inflamación o retención de líquidos.</p>
+                                </div>
+                                <div class="section-services-carrusel-info">
+                                    <div class="section-services-div-img"><img src="recursos/img-recurso1.png" alt=""></div>
+                                    <h5>Masoterapia</h5>
+                                    <p>Aplicación de técnicas de masaje terapéutico para aliviar tensiones musculares, mejorar el bienestar general y complementar procesos de rehabilitación.</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="section-services-carrusel"  id="movil">
+                <div id="carouselExampleAutoplaying movil" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="section-services-carrusel-info">
+                                <div class="section-services-div-img"><img src="recursos/img-recurso6.png" alt=""></div>
+                                <h5>Lesion Traumatologica y deportiva</h5>
+                                <p>Tratamientos especializados para lesiones musculares, articulares o esqueléticas, enfocadas en la recuperación funcional de pacientes activos o deportistas.</p>
+                            </div>        
+                        </div>
+                        <div class="carousel-item">
+                            <div class="section-services-carrusel-info">
+                                <div class="section-services-div-img"><img src="recursos/img-recurso5.png" alt=""></div>
+                                <h5>Atencion respiratorio</h5>
+                                <p>Rehabilitación pulmonar para mejorar la capacidad respiratoria en pacientes con enfermedades crónicas o postinfecciones como COVID-19.</p>
+                            </div>                          
+                        </div>
+                        <div class="carousel-item">
+                            <div class="section-services-div-img"><img src="recursos/img-recurso3.png" alt=""></div>
+                            <h5>Geriatria</h5>
+                            <p>Atención personalizada a adultos mayores para preservar movilidad, independencia y prevenir caídas, adaptado a las necesidades de esta etapa.</p>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="section-services-div-img"><img src="recursos/img-recurso2.png" alt=""></div>
+                            <h5>Reintegro deportivo</h5>
+                            <p>Plan de recuperación progresiva para que el paciente retome su práctica deportiva de forma segura y eficiente, luego de una lesión.</p>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="section-services-div-img"><img src="recursos/img-recurso4.png" alt=""></div>
+                            <h5>Presoterapia</h5>
+                            <p>Terapia con presión controlada que favorece el drenaje linfático, mejora la circulación y ayuda a reducir inflamación o retención de líquidos.</p>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="section-services-div-img"><img src="recursos/img-recurso1.png" alt=""></div>
+                            <h5>Masoterapia</h5>
+                            <p>Aplicación de técnicas de masaje terapéutico para aliviar tensiones musculares, mejorar el bienestar general y complementar procesos de rehabilitación.</p>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying movil" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying movil" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="section-about-profesional">
+            <h5>Sobre el profesional</h5>
+            <div class="div-section-about-profesional">
+                <div class="section-about-profesional-histographia">
+                    <h1>Fabian Fenandez</h1>
+                    <h4>Kinesiologo</h4>
+                    <p>
+                        Mi objetivo es ayudarte a entender tu cuerpo y brindarte las herramientas necesarias para superar el dolor. No creo en los tratamientos estandarizados; cada paciente tiene una historia, un contexto y objetivos únicos.
+                    </p>
+                    <div class="div-linea-section-about-profesional-1"></div>
+                    <p>° Especialista en rehabilitación deportivas</p>
+                    <div class="div-section-about-profesional-histographia-elements">
+                        <div class="section-about-profesional-histographia-elemnt1">
+                            <h4>1000+</h4>
+                            <p>Pacientes recuperados</p>
+                        </div>
+                        <div class="section-about-profesional-histographia-elemnt2">
+                            <h4>+5</h4>
+                            <p>Años de Experiencia</p>
+                        </div>
+                    </div>
+                </div>
+                <div><img src="recursos/ProfessionalImage.png" alt=""></div>
+            </div>
+        </section>
+        <section class="container-fluid" id="section-session-steps">
+            <h1>Asi es la Sesión</h1>
+            <p>
+                Un proceso claro, estructurado y enfocado totalmente en tu
+                recuperación activa desde el día uno.
+            </p>
+            <div class="section-session-steps-elements">
+                <div class="section-session-steps-element">
+                    <i class="bi bi-1-circle-fill"></i>
+                    <h5>Evaluación</h5>
+                </div>
+                <div class="section-session-steps-element">
+                    <i class="bi bi-2-circle-fill"></i>
+                    <h5>Diagnóstico</h5>
+                </div>
+                <div class="section-session-steps-element">
+                    <i class="bi bi-3-circle-fill"></i>
+                    <h5>Tratamiento</h5>
+                </div>
+                <div class="section-session-steps-element">
+                    <i class="bi bi-4-circle-fill"></i>
+                    <h5>Seguimiento</h5>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid" id="section-real-result">
+            <h1>Resultados reales</h1>
+            <div class="section-real-result-div-element">
+                <div class="section-real-result-elements">
+                    <h5>“Me quitó el dolor en semanas”</h5>
+                    <div class="div-section-real-result-elements-stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                </div>
+                <div class="section-real-result-elements">
+                    <h5>“Excelente atención”</h5>
+                    <div class="div-section-real-result-elements-stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                </div>
+                <div class="section-real-result-elements">
+                    <h5>“Muy profesional y cercano”</h5>
+                    <div class="div-section-real-result-elements-stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="section-schedule-via-wsp">
+            <h1>Agenda tu evaluación hoy</h1>
+            <p>
+                Agenda tu turno hoy mismo de manera rápida y directa. Cupos
+                limitados para garantizar atención 1 a 1 de calidad.
+            </p>
+           <button class="btn">Agenda por WhatsApp</button>
+        </section>
+        
+    </main>
+    <footer>
+        <section class="container" id="footer-section-histographia">
+            <div class="container" id="section-histographia-elemnts">
+                <div class="footer-histographia-element1">
+                    <div class="logo"><h5 class="kine-h5">Kine</h5><h5>App</h5></div>
+                    <p>
+                        Kinesiología y Rehabilitación integral.
+                        Devolviendo el movimiento y la calidad
+                        de vida a nuestros pacientes.
+                    </p>
+                </div>
+                <div class="footer-histographia-element">
+                    <h5>Contacto y Ubicación</h5>
+                    <div class="f-elements">
+                        <i class="bi bi-geo-alt"></i>
+                        <p>Atención domiciliaria</p>
+                    </div>
+                    <div class="f-elements">
+                        <i class="bi bi-telephone"></i>
+                        <p>+54 9 11 1234-5678</p>
+                    </div>
+                    <div class="f-elements">
+                        <i class="bi bi-envelope"></i>
+                        <p>contacto@kinesalud.com</p>
+                    </div>
+                </div>
+                <div class="footer-histographia-element">
+                    <h5>Horario de atención</h5>
+                    <div class="f-elements">
+                        <i class="bi bi-clock"></i>
+                        <p>
+                            Lunes a Viernes
+                            08:00 hs - 20:00 hs
+                        </p>
+                    </div>
+                    <p>Atención con turno previo.</p>
+                </div>
+                <div class="footer-histographia-element">
+                    <h5>Siguenos</h5>
+                    <div class="f-elements1">
+                        <a href="https://instagram.com/tuusuario" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="https://facebook.com/tuusuario" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="section-histographia-credits">
+                <div class="credits">
+                    <p>
+                        © 2024 KineApps - Fabian Fernández. Todos los derechos reservados.
+                    </p>
+                </div>
+                <div class="terminos">
+                    <button class="btn">Términos de Servicio</button>
+                    <button class="btn">Privacidad</button>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid" id="footer-section-creador">
+            <p>DESAROLLADO POR @MPR.ING  @2026</p>
+        </section>
+    </footer>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>   
+</body>
+</html>
+
